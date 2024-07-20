@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Toddler Fun Area | Learning: Alphabets</title>
+  
+  <meta name="Description" content="Preschool Learning Games For Kids. Games designed to stimulate their learning and memory skills.">
+  <meta name="Keywords" content="toddler, kids, online games, educational games, learning, learning for kids">
+  <meta name="Author" content="Vidya Ramakrishnan">
+  <meta property="fb:admins" content="525114057" />
+  <meta name="google-site-verification" content="zbogXOPXwvev4tRyqMj75yDAQYRhF3UjzFS-8RNly8M" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-waqnr0');
+	src:url('../fonts/icomoon.eot?#iefix-waqnr0') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-waqnr0') format('woff'),
+		url('../fonts/icomoon.ttf?-waqnr0') format('truetype'),
+		url('../fonts/icomoon.svg?-waqnr0#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background: #ba423a;
+	background-size: 200vh;
+	font:14px/1.5em Verdana, Geneva, sans-serif;
+	color:#444;
+}
+
+@media (min-width:1024px) {
+body {
+	background-size: 100vw 100vh;
+	background-repeat: repeat;
+ }
+}
+
+a
+{
+   text-decoration:none;
+   outline:none;
+}
+
+
+a img {
+  border:none;
+}
+
+.container
+{
+  margin: 3% auto;
+  position:relative;
+  min-height:600px;
+}
+
+@media (min-width:1024px){
+.container{
+	width:960px;
+ }
+}
+
+.cf:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.off
+{
+  display:none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.no-show{
+  visibility:hidden;
+  opacity: 0;
+}
+
+.transition{
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -ms-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
+.loading
+{
+  font-size:1.5em;
+  font-weight:bold;
+  width:100%;
+  position:absolute;
+  top:30%;
+  left:30%;
+}
+
+#progressbar
+{
+  border:2px solid #777;
+  width:50%;
+}
+
+#progressbar p
+{
+  margin:0;
+  padding:1% 0;
+  width:0;
+  background-color:#f5f80c;
+}
+
+
+.side-nav{
+	list-style:none;
+	padding-left:0;
+}
+
+.side-nav li{
+	float:left;
+	width:25%;
+	text-align:center;
+}
+
+@media(min-width:992px){
+.side-nav{
+	float:left;
+	list-style:none;
+	width:15%;
+	padding-left:0;
+}
+.side-nav li{
+	float:none;
+	margin-bottom:15px;
+	width: 100%;
+}
+}
+
+@media(min-width:1024px){
+.side-nav li{
+	margin-bottom:0;
+}
+}
+
+.side-nav li a img{
+	width:100%;
+}
+
+@media (min-width:1200px){
+.side-nav li a img{
+	width:100%;
+}
+}
+
+.side-nav li:hover img{
+  -moz-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+
+.main_content{
+	clear: both;
+	margin:0 auto 3%;
+	margin-top: 40px;
+	width:95%;
+	padding:2% 5%;
+	border:3px solid #7b8f8e;
+	border-radius:15px;
+	background: #c7dcda; /* Fall back for browsers that donot support transparency */
+	background: rgba(199, 220, 218, 0.8);
+}
+@media(min-width:992px){
+.main_content{
+	float:right;
+	width:80%;
+	clear:none;
+}
+}
+
+h1,
+h2,
+h3{
+	text-align:center;
+	line-height: 1.4;
+}
+
+.main_content a{
+	color:#00B;
+}
+
+.main_content a:hover{
+	text-decoration:underline;
+}
+
+.slide{
+	width:50%;
+	float:left;
+	text-align:center;
+}
+
+.slide img{
+	border-radius:12px;
+	border:1px solid #7b8f8e;
+	width:70%;
+}
+
+.games-slide a img,
+.learning-slide a img{
+	width:100%;
+}
+p{
+  border-radius: 5px;
+}
+.note{
+	clear:both;
+	text-align:center;
+	font-size:small;
+}
+
+.box-wrap{
+	float:left;
+	width:50%;
+	margin:0 auto;
+}
+.box{
+	padding:0 9% 5%;
+}
+
+@media(min-width: 768px){
+.box-wrap{
+	width:33.33%;
+}
+}
+
+.box h4{
+	text-align:center;
+	color:#900;
+	margin:10px auto;
+	line-height: normal;
+}
+
+.box img{
+	width:100%;
+	text-align:center;
+	border-radius:12px;
+	border:4px solid #bbb;
+	-webkit-box-shadow: 0px 3px 5px -1px #333;
+    box-shadow: 0px 3px 5px -1px #333;  
+}
+
+.box img:hover{
+   -webkit-transform: rotate(5deg);
+   -moz-transform: rotate(5deg);
+   -o-transform: rotate(5deg);
+   -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+.scratch_games{
+	clear:both;
+	float:right;
+}
+
+.scratch_games a{
+	color:#fff;
+	font-weight:bold;
+	display:inline-block;
+	padding:10px;
+	line-height:20px;
+	background-color:#09F;
+	border-radius:30%/100%;
+	margin-left:5px;
+}
+
+#win-img,
+#game-over-img
+{
+  width:100%;
+  position:absolute;
+  top:20%;
+  left:10%;
+  display:none;
+  text-align:center;
+}
+
+#win-img img,
+#game-over-img img
+{
+	width:70%;
+}
+
+@media(min-width:600px){
+#win-img img,
+#game-over-img img
+{
+	width:50%;
+}
+}
+
+.button-box{
+	margin: 5px auto 10px;
+	position:relative;
+}
+
+.game-button{
+  font-size: 20px;
+  font-weight:bold;
+  color:white;
+  background-color:#005387;
+  border:2px solid #fff;
+  border-radius:5px;
+  padding:15px 40px;
+}
+
+.game-button:hover{
+  background-color:#0092bf;
+  cursor:pointer;
+}
+
+.speaker-controls{
+	position:absolute;
+	top:-5px;
+	left:150px;
+}
+
+.note{
+ clear:both;
+ text-align: justify; 
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
+.embed-responsive.embed-responsive-4by3 {
+   padding-bottom: 75%;
+}
+
+.slides{
+	position:relative;
+}
+
+#prev{
+	position:absolute;
+	background: red;
+	border: 1px solid black;
+	width: 70px;
+	height: 50px;
+	top:40%;
+	left:-7%;
+}
+
+#next{
+	position:absolute;
+	background: red;
+	border: 1px solid black;
+	width: 70px;
+	height: 50px;
+	top:40%;
+	right:-7%;
+}
+
+.icons{
+    font-family: 'icomoon';
+	font-size: 3rem;
+	margin-top: 300px;
+	cursor:pointer;
+	color:#444;
+}
+
+@media(min-width:768px){
+#prev{
+	left:-4%;
+}
+
+#next{
+	right:-4%;
+}
+	
+.icons{
+	font-size:25px;
+}
+}
+.icons span{
+font-size: 1rem;
+color: #fff;
+margin-left: 15px;
+}
+
+.hide{
+	visibility:hidden;
+}
+
+#slide-indicator{
+	clear:both;
+	margin-top:20px;
+}
+
+.facebook-like{
+	clear:both;
+	float:left;
+	margin:10px;
+}
+
+p.less-margin{
+	margin:0 auto 5px;
+}
+
+.hidden-xs{
+	display: none;
+}
+.visible-sm{
+	clear:both;
+	display: block;
+}
+
+@media (min-width:768px){
+.hidden-xs{
+	display: block;
+}
+.visible-sm{
+	display: none;
+}
+}
+    h1{
+	text-align:center;margin: -5px;
+}
+
+#leftside-display div,
+#rightside-display div{
+	display:none;border-radius: 10px;
+	height: 120px;
+}
+
+#leftside-display div.active,
+#rightside-display div.active{
+	display:block;
+}
+
+#leftside-display div{
+	background-color:#8889c9;
+	border-radius: 10px;
+}
+
+#leftside-display div,
+#rightside-display div img{
+	border:3px solid #7b8f8e;
+	margin:-5px 0 0;
+}
+
+#rightside-display div img{
+	width:100%;border-radius: 10px;
+	height: 230px;
+}
+
+h2{
+	font-size:30px;
+}
+
+@media(min-width:768px){
+h2{
+	font-size:40px;
+	padding:20px;
+}
+	
+#leftside-display div,
+#rightside-display div{
+	float:left;
+	width:48%;
+}
+
+
+#rightside-display div{
+	margin-left:4%;
+}
+	
+}
+
+@media(min-width:820px){
+h2{
+	font-size:60px;
+}
+}
+
+#slide-indicator p{
+	float:left;
+	width:40px;
+	height:40px;
+	border:3px solid #7b8f8e;
+	background-color:lightblue;
+	cursor:pointer;
+	opacity:0.7;
+	font-size:25px;
+	line-height:30px;
+	text-align:center;
+	margin:5px;
+}
+
+#slide-indicator p.active{
+	opacity:1;
+}
+.rtr{
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px;
+}
+  </style>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="learning1.js"></script>
+</head>
+<body>
+<div class="container cf">
+<nav>
+<ul class="side-nav">
+<li><a href = "page1.html" class="nav_home_img"><div class="rtr">🏠</div></a></li></ul></nav>
+  <div class="main_content cf">
+    
+    <div class="slides cf">
+    
+      <div id="leftside-display">
+        <div class="active">
+<h1>family</h1>
+<h2>العائلة</h2>
+<audio preload="auto" id="audio1" src="family.mp3"></audio></div>
+
+<div>
+<h1>father</h1>
+<h2>الأب</h2>
+<audio preload="auto" id="audio10" src="father.mp3"></audio></div>
+   
+<div>
+<h1>mother</h1>
+<h2>الأم</h2>
+<audio preload="auto" id="audio11" src="mother.mp3"></audio></div>
+      
+<div>
+<h1>son</h1>
+<h2>الابن</h2>
+<audio preload="auto" id="audio6" src="son.mp3"></audio></div>
+          
+<div>
+<h1>daughter</h1>
+<h2>الابنة</h2>
+<audio preload="auto" id="audio7" src="daughter.mp3"></audio></div>
+    
+<div>
+<h1>brother</h1>
+<h2>الأخ</h2>
+<audio preload="auto" id="audio5" src="brother.mp3"></audio></div>
+          
+<div>
+<h1>sister</h1>
+<h2>الأخت</h2>
+<audio preload="auto" id="audio4" src="sister.mp3"></audio></div>
+           
+<div>
+<h1>uncle</h1>
+<h2>لعم أو الخال</h2>
+<audio preload="auto" id="audio3" src="uncle.mp3"></audio></div>
+
+<div>
+<h1>Aunt</h1>
+<h2>عمة أو خالة</h2>
+<audio preload="auto" id="audio10" src="aunt.mp3"></audio></div>
+          
+<div>
+<h1>grand father</h1>
+<h2>الجد</h2>
+<audio preload="auto" id="audio7" src="grand-father.mp3"></audio></div>
+    
+<div>
+<h1>grand mother</h1>
+<h2>الجدة</h2>
+<audio preload="auto" id="audio5" src="grand-mother.mp3"></audio></div>
+          
+<div>
+<h1>woman</h1>
+<h2>امراه</h2>
+<audio preload="auto" id="audio4" src="woman.mp3"></audio></div>
+           
+<div>
+<h1>Man</h1>
+<h2>رجل</h2>
+<audio preload="auto" id="audio3" src="man.mp3"></audio></div>
+
+<div>
+<h1>baby</h1>
+<h2>رضيع</h2>
+<audio preload="auto" id="audio10" src="baby.mp3"></audio></div>
+   
+<div>
+<h1>Husband</h1>
+<h2>زوج</h2>
+<audio preload="auto" id="audio11" src="husband.mp3"></audio></div>
+      
+<div>
+<h1>wife</h1>
+<h2>زوجة</h2>
+<audio preload="auto" id="audio6" src="wife.mp3"></audio></div>
+          
+<div>
+<h1>Boy</h1>
+<h2>صبي</h2>
+<audio preload="auto" id="audio7" src="boy.mp3"></audio></div>
+    
+<div>
+<h1>lady</h1>
+<h2>سيدة</h2>
+<audio preload="auto" id="audio5" src="lady.mp3"></audio></div>
+          
+<div>
+<h1>child</h1>
+<h2>طفل</h2>
+<audio preload="auto" id="audio4" src="child.mp3"></audio></div>
+          
+<div>
+<h1>Cousin</h1>
+<h2>ابن العم/ بنت العم</h2>
+<audio preload="auto" id="audio8" src="cousin.mp3"></audio></div>
+<div>
+<h1>Friend</h1>
+<h2>صديق</h2>
+<audio preload="auto" id="audio10" src="friend.mp3"></audio></div>
+
+
+</div>
+<div id="slide-indicator" >
+<div id="rightside-display">
+<div class="active"><img src="family.jpg"/>
+<p>🔊</p></div>
+<div><img src="father.jpg"/><p>🔊</p></div>
+<div><img src="mother.jpg"/><p>🔊</p></div>
+<div><img src="son.jpg"/><p>🔊</p></div>
+<div><img src="daughter.jpg"/><p>🔊</p></div>
+<div><img src="brother.jpg"/><p>🔊</p></div>
+<div><img src="sister.jpg"/><p>🔊</p></div>
+<div><img src="uncle.jpg"/><p>🔊</p></div>
+<div><img src="aunt.jpg"/><p>🔊</p></div>
+<div><img src="grand father.jpg"/><p>🔊</p></div>
+<div><img src="grand mother.jpg"/><p>🔊</p></div>
+<div><img src="woman.jpg"/><p>🔊</p></div>
+<div><img src="man.jpg"/><p>🔊</p></div>
+<div><img src="baby.jpg"/><p>🔊</p></div>
+<div><img src="husband.jpg"/><p>🔊</p></div>
+<div><img src="wife.jpg"/><p>🔊</p></div>
+<div><img src="boy.jpg"/><p>🔊</p></div>
+<div><img src="lady.jpg"/><p>🔊</p></div>
+<div><img src="child.jpg"/><p>🔊</p></div>
+<div><img src="cousin.jpg"/><p>🔊</p></div>
+<div><img src="friend.jpg"/><p>🔊</p></div>
+
+
+</div></div>
+
+<div class="controls">
+<p id="next" class="icons icon-next">
+<span>next</span></p>
+<p id="prev" class="icons icon-prev">
+<span>prev</span></p>
+</div></div></div></div>
+</body>
+</html>
